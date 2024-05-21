@@ -1,31 +1,43 @@
-# React + TypeScript + Vite
+# Life Calendar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Life Calendar is a project aimed at visualizing and reflecting on the passage of time and the stages of life. It provides a unique way to track and understand one's life journey through a visual representation of weeks lived and remaining.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Visual Representation:** Display your life in weeks, highlighting milestones and significant events.
+- **Life Expectancy Calculation:** Estimate your life expectancy and visualize your current progress.
+- **Quarterly Analysis:** Divide your life into quarters and explore the unique experiences of each stage.
+- **Downloadable Resume:** Generate and download a visual summary of your life calendar.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+-   <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /> **React:** A JavaScript library for building user interfaces.
+-   <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" /> **TypeScript:** A typed superset of JavaScript that compiles to plain JavaScript.
+-  <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" /> **Vite:** A fast, modern build tool for web development.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# life-calendar
+## Getting Started
+
+To get started with Life Calendar:
+
+1. Clone this repository to your local machine.
+2. Install dependencies by running `npm install`.
+3. Start the development server with `npm run dev`.
+4. Open your browser and navigate to `http://localhost:3000`.
+
+## Usage
+
+1. Set your life expectancy and date of birth.
+2. Explore your life calendar, marking significant events and milestones.
+3. Reflect on your journey and plan for the future.
+4. Generate a downloadable resume to keep a visual record of your life.
+
+## Contributing
+
+Contributions are welcome! If you have ideas for features or improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
