@@ -209,7 +209,7 @@ export const MainPage = () => {
     };
 
     const handleScreenshot = () => {
-        html2canvas(document.querySelector("#capture") as HTMLElement).then(
+        html2canvas(document.querySelector("#capture") as HTMLElement, { scale: 1}).then(
             (canvas) => {
                 // Append the canvas to the body
                 document.body.appendChild(canvas);
